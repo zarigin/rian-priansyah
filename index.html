@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rian Priansyah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-orange: #f97316;
+            --secondary-orange: #fff7ed;
+        }
+        body {
+            background-color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .orange-gradient {
+            background: linear-gradient(135deg, #fb923c, #f97316);
+        }
+        .section-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-left: 5px solid var(--primary-orange);
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Hero Section -->
+    <header class="orange-gradient text-white py-12 px-6 mb-8">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="relative">
+                <!-- Placeholder Image -->
+                <img src="https://via.placeholder.com/150" alt="Foto Rian Priansyah" class="profile-img rounded-full">
+            </div>
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl font-bold mb-2">Rian Priansyah</h1>
+                <p class="text-xl opacity-90 mb-4">Pelajar & Penyanyi</p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-4 text-sm">
+                    <span><i class="fas fa-calendar-alt mr-2"></i>14 April 2008</span>
+                    <span><i class="fas fa-map-marker-alt mr-2"></i>Baleendah, Bandung</span>
+                    <span><i class="fas fa-phone mr-2"></i>+62 898166944202</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 pb-12">
+        
+        <!-- Tentang Diri -->
+        <section class="section-card">
+            <h2 class="text-xl font-bold text-orange-600 mb-3 flex items-center">
+                <i class="fas fa-user-circle mr-2"></i> Tentang Diri
+            </h2>
+            <p class="leading-relaxed">
+                Halo! Saya Rian Priansyah. Saya adalah pribadi yang antusias dan sangat suka menonton film, terutama film-film dari <strong>Disney</strong> yang penuh imajinasi dan pesan moral.
+            </p>
+        </section>
+
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Pendidikan -->
+            <section class="section-card">
+                <h2 class="text-xl font-bold text-orange-600 mb-4 flex items-center">
+                    <i class="fas fa-graduation-cap mr-2"></i> Pendidikan
+                </h2>
+                <div class="space-y-4">
+                    <div class="border-l-2 border-orange-200 pl-4">
+                        <h3 class="font-bold">SMA KP Baleendah</h3>
+                        <p class="text-sm text-gray-500">Lulus Tahun 2026</p>
+                    </div>
+                    <div class="border-l-2 border-orange-200 pl-4">
+                        <h3 class="font-bold">SMP KP</h3>
+                        <p class="text-sm text-gray-500">Lulus Tahun 2023</p>
+                    </div>
+                    <div class="border-l-2 border-orange-200 pl-4">
+                        <h3 class="font-bold">MI ALHIDAYAH</h3>
+                        <p class="text-sm text-gray-500">Lulus Tahun 2020</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Keahlian & Bahasa -->
+            <div class="space-y-6">
+                <section class="section-card">
+                    <h2 class="text-xl font-bold text-orange-600 mb-3 flex items-center">
+                        <i class="fas fa-star mr-2"></i> Keahlian & Hobi
+                    </h2>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Menyanyi</span>
+                        <span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-medium">Menonton Film</span>
+                    </div>
+                </section>
+
+                <section class="section-card">
+                    <h2 class="text-xl font-bold text-orange-600 mb-3 flex items-center">
+                        <i class="fas fa-language mr-2"></i> Bahasa
+                    </h2>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Indonesia (Native)</li>
+                        <li>Inggris (Dasar)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <!-- Alamat & Sosial Media -->
+        <section class="section-card">
+            <h2 class="text-xl font-bold text-orange-600 mb-4 flex items-center">
+                <i class="fas fa-address-book mr-2"></i> Kontak & Sosial Media
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-sm text-gray-500 uppercase font-bold tracking-wider">Alamat</p>
+                    <p>Kp. Mulyasari RT 09 / RW 18</p>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <a href="https://instagram.com/gyugyun_" target="_blank" class="text-2xl text-orange-500 hover:text-orange-700 transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <span class="text-sm font-medium text-gray-600">@gyugyun_</span>
+                    
+                    <a href="#" class="text-2xl text-orange-500 hover:text-orange-700 transition">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <span class="text-sm font-medium text-gray-600">Gun</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lainnya -->
+        <section class="section-card">
+            <h2 class="text-xl font-bold text-orange-600 mb-3">Informasi Tambahan</h2>
+            <div class="grid grid-cols-2 gap-4 text-sm">
+                <div class="bg-gray-50 p-3 rounded-lg">
+                    <p class="font-bold text-gray-500">Pengalaman Organisasi</p>
+                    <p>Belum ada pengalaman organisasi (-)</p>
+                </div>
+                <div class="bg-gray-50 p-3 rounded-lg">
+                    <p class="font-bold text-gray-500">Sertifikat</p>
+                    <p>Belum ada sertifikat (-)</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-6 text-gray-400 text-sm">
+        <p>&copy; 2024 Rian Priansyah. Dibuat dengan semangat oranye.</p>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
